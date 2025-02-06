@@ -37,3 +37,8 @@ https://github.com/saucelabs/sample-app-mobile/releases
 # step running
 appium => run at terminal
 python3 {file_name}.py => terminal vscode
+
+
+
+# Video Documentation
+https://go.screenpal.com/watch/cTn1cKnhVmo 

@@ -13,9 +13,10 @@ driver = webdriver.Remote('http://127.0.0.1:4723', options=options)
 
 driver.implicitly_wait(10)
 
-# enter some value button = acc id = Btn1
+# enter usernam
 driver.find_element(AppiumBy.ACCESSIBILITY_ID, 'test-Username').send_keys('standard_user')
 
+# enter password
 driver.find_element(AppiumBy.ACCESSIBILITY_ID, 'test-Password').send_keys('secret_sauce')
 
 # login butto
